@@ -1,0 +1,94 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 199);
+}
+
+.h1LogReg
+{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top:20px;
+    left: 35%;
+}
+
+.header
+{
+    background-color: #5539c4;
+    margin-top: -21px;
+}
+
+.header h1
+{
+    color: white;
+    /*padding-top: 25px;*/
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.welcome
+{
+    background-image: url(img/welcomeBack.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.welcomeText
+{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: right;
+}
+
+.regLog
+{
+    position: absolute;
+    top: 400px;
+}
+
+button
+{
+    background: rgb(60, 0, 203); /* Синий цвет фона */
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+}
+
+.games
+{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.one
+{
+    width: fit-content;
+    position: relative;
+    background: #5539c4;
+    text-align: center;
+    border: #000;
+    border-style: dashed;
+}
+
+.one img
+{
+    width: auto;
+    height: 250px;
+}
+
+.one h2
+{
+    color: #fff;
+}
+
+.one h3
+{
+    color: #fff;
+}
